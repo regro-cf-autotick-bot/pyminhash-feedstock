@@ -1,5 +1,5 @@
 {% set name = "PyMinHash" %}
-{% set version = "0.1" %}
+{% set version = "0.1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyMinHash-{{ version }}.tar.gz
-  sha256: 8f8b5ae5637b5b571157a78151c6a2a0deae00fddd3aca22ada4479e0aafaa8f
+  sha256: d446e109c9223566ad4b0663ef699b41e68cc1f690c10f11e1ebc99b418446b9
 
 build:
   number: 0
